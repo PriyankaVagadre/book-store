@@ -1,0 +1,20 @@
+@import url(../app.component.scss);
+
+// .bg{
+//     background-color: #F8F7FF;
+//     padding: 16px;
+//     height: 100vh;
+    h1{
+        font-size: 48px;
+        color: #5E56E7;
+        font-weight: 600;
+    }
+// }
+
+.category {
+    margin: 10vh 0px;
+    ul{ 
+        list-style: none;
+        padding: 0px;
+    }
+  }

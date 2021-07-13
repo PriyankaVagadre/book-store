@@ -1,0 +1,23 @@
+
+<a routerLink="/category"><h2>{{category}}</h2></a>
+
+
+<form name="form" [formGroup]="searchForm">
+    <div class="input-group">
+      <div class="input-group-btn">
+        <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+      </div>
+      <input type="text" formControlName="searchText"  class="form-control" placeholder="Search" name="search">
+    </div>
+</form>
+<div class="row">
+    <div class="col-sm-4 col-lg-2" *ngFor="let item of selectedCatagory">
+      <div class="book-detail">
+        <img alt="item.title" [src]="item.formats.image" width="200px" height="auto"/> 
+        <p class="title">{{item.title}} </p>
+        <p class="author" *ngFor="let author of item.authors">
+         {{author.name}}
+        </p>
+      </div>
+    </div>
+</div>

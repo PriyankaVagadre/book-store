@@ -1,0 +1,28 @@
+@import url(../app.component.scss);
+
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #5E56E7;
+    text-transform: capitalize;
+    margin: 0px;
+}
+.input-group{
+    margin: 10vh 0px;
+}
+.book-detail{
+    padding: 16px;
+    background-color: #fff !important;
+    margin-bottom: 16px;
+    height: 250px;
+    
+.title{
+    font-size: 14px;
+    font-weight: 600;
+}
+.author{
+    font-size: 14px;
+    font-weight: 600;
+    color:#A0A0A0 ;
+}
+}

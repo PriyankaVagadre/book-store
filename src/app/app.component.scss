@@ -1,0 +1,40 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #F8F7FF;
+}
+$base-blue-color: #5E56E7;
+$base-white-color: #F8F7FF;
+$primary-grey: #F0F0F6;
+$secondary-grey: #A0A0A0;
+$font-family: 'Montserrat', sans-serif;
+
+
+
+h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+p{
+    font-size: 16px;
+}
+
+a{
+    text-transform: capitalize;
+}
+.bg{
+    background-color: #F8F7FF;
+    padding: 16px;
+    height: 100vh;
+    overflow: auto;
+}
+.card{
+    padding: 16px;
+    background-color: #fff !important;
+    margin-bottom: 16px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #333333;
+    text-transform: uppercase;
+}

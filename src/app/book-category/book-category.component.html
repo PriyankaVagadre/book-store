@@ -1,0 +1,17 @@
+<div>
+    <h1>Gutenberg Project</h1>
+    <h3>Our vision Lorem ipsum dolor sit amet, consectetur adipiscinA social cataloging website that allows you to
+        freely search its database of books,
+        annotations, and reviews.</h3>
+
+    <div class="category">
+        <ul class="row">
+            <li class="col-sm-12 col-md-6" *ngFor="let item of navigations">
+                <a [routerLink]="['/listing', item.category]">
+                    <h2 class="card">{{item.category}}</h2>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<router-outlet></router-outlet>
